@@ -1,3 +1,11 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<div id="markdown">
+  <h2 id="title">Markdown</h2>
+  {{textarea placeholder="Write markdown here" rows="80" cols="120" value=markdown}}
+</div>
 
-{{outlet}}
+<div id="html">
+  <h2 id="header">HTML</h2>
+  <div id="body">
+    {{showdown-addon markdown}}
+  </div>
+</div>
