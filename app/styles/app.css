@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {font-size: 2.827em;
-    color: #EE4B3E
+    color: #1FDA9A
 
 }
 
@@ -51,12 +51,13 @@ h3 {font-size: 1.999em;
 }
 
 h4 {font-size: 1.414em;
-    color: #E9BC1B;  
+    color: #E9BC1B;
 }
 
 small, .font_small {font-size: 0.707em;}
 
 textarea {
   border: solid 3px #1FDA9A;
-  background: #F2F2F3
+  background: #F2F2F3l;
+  position: fixed
 }
