@@ -12,16 +12,17 @@ body {
 
 #markdown {
   float: left;
-  width: 50%;
+  width: 40%;
   min-width: 60px;
   height: 100%;
 
 }
 
 #html {
-  float: left;
-  width: 50%;
+  float: right;
+  width: 40%;
   min-width: 60px;
+  height: 100%;
 }
 
 html {font-size: 1em;}
@@ -60,4 +61,11 @@ textarea {
   border: solid 3px #1FDA9A;
   background: #F2F2F3l;
   position: fixed
+}
+
+
+textarea {
+  float: left;
+  width: 49%;
+  height: 99%;
 }

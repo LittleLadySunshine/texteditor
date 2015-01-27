@@ -1,11 +1,13 @@
-<div id="markdown">
-  <h2 id="title">Markdown</h2>
-  {{textarea placeholder="Write markdown here" rows="80" cols="100" value=markdown}}
-</div>
+<div class="container">
+  <div id="markdown">
+    <h2 id="title">Markdown</h2>
+    {{textarea placeholder="Write markdown here" value=markdown}}
+  </div>
 
-<div id="html">
-  <h2 id="header">HTML</h2>
-  <div id="body">
-    {{showdown-addon markdown}}
+  <div id="html">
+    <h2 id="header">HTML</h2>
+    <div id="body">
+      {{showdown-addon markdown}}
+    </div>
   </div>
 </div>
